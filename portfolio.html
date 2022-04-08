@@ -48,12 +48,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="services.html">Services</a></li>
-          <li><a class="nav-link   scrollto" href="portfolio.html">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="privacypolicy.html">Privacy Policy</a></li>
-          <li><a class="nav-link scrollto" href="howitworks.html">How it Works</a></li>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="about.html">About</a></li>
+            <li><a class="nav-link scrollto" href="services.html">Services</a></li>
+            <li><a class="nav-link   scrollto" href="portfolio.html">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="privacypolicy.html">Privacy Policy</a></li>
+            <li><a class="nav-link scrollto" href="howitworks.html">How it Works</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -103,90 +103,118 @@
 
   <main id="main">
 
-    <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients section-bg">
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in">
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
-
-        </div>
-
-      </div>
-    </section>End Cliens Section -->
-
-    <!-- ======= About Us Section ======= -->
-    <section id="services" class="services section-bg">
+    <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
-            <h2>How it works</h2>
-            <p>by negotiating lower rates with your current providers</p>
+            <h2>Portfolio</h2>
+            <p>Some Of Our Projects</p>
           </div>
   
-          <div class="row">
-            <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-paper-plane"></i></div>
-                <h4><a href="">Send us your bills:</a></h4>
-                <p>All of your monthly costs; mobile phone, cable, internet, and so on... We'll work them all!</p>
+          <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Mobile</li>
+            <!-- <li data-filter=".filter-card">Game</li> -->
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+  
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpeg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/portfolio-4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
   
-            <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-phone-call"></i></div>
-                <h4><a href="">We call your providers</a></h4>
-                <p>We call your service providers and negotiate on your behalf. You will save time and effort.</p>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Web 1</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/portfolio-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
   
-            <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-wallet"></i></div>
-                <h4><a href="">You save money</a></h4>
-                <p>Your bargained-for reductions and savings will be reflected on your regular invoices! There are no savings and no charges.</p>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpeg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/portfolio-5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
   
-            <!-- <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">SEO</a></h4>
-                <p>We Provides Search Engines Optimization for Your Business Websites</p>
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Game 1</h4>
+                <p>Game</p>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div> -->
   
-             
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/portfolio-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpeg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/portfolio-6.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Game 2</h4>
+                <p>Game</p>
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div> -->
+  
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Game 3</h4>
+                <p>Game</p>
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div> -->
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/portfolio-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
   
           </div>
   
         </div>
-      </section><!-- End Services Section -->
-
+      </section><!-- End Portfolio Section -->
+  
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
